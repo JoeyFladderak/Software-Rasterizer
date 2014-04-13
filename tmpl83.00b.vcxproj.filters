@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Template">
+      <UniqueIdentifier>{ceec9613-8f03-4ada-bef4-b4e0e5d52a39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer">
+      <UniqueIdentifier>{13868249-8d05-4600-a1c7-0085f190fd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Data">
+      <UniqueIdentifier>{2f9abb58-39e4-470f-b472-c079a48b2b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizer\Managers">
+      <UniqueIdentifier>{be2a4796-d116-4a84-8599-b80b26fb301b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="template.cpp">
+      <Filter>Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGraph.cpp">
+      <Filter>Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Span.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Rasterizer\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialManager.cpp">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshManager.cpp">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="template.h">
+      <Filter>Template</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Span.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Rasterizer\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshManager.h">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Rasterizer\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

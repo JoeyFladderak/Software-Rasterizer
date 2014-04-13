@@ -1,0 +1,70 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5.5 5.5.4.2708 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl lambert14SG
+Ka 0 0 0
+Kd 0.678431 0.8 0.768627
+Ks 0.498039 0.498039 0.498039
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl stukaColor_delet
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.498039 0.498039 0.498039
+illum 2
+Ns 8
+map_Kd diffuseC.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl stukaColo1
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.498039 0.498039 0.498039
+illum 2
+Ns 8
+map_Kd diffuseF.png
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
+
+newmtl Explorer_Default
+Ka 0.117647 0.117647 0.117647
+Kd 0.752941 0.752941 0.752941
+Ks 0.752941 0.752941 0.752941
+illum 2
+Ns 8
+map_Kd 
+map_bump 
+bump 
+map_opacity 
+map_d 
+refl 
+map_kS 
+map_kA 
+map_Ns 
